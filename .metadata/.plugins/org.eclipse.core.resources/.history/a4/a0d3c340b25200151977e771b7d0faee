@@ -1,0 +1,50 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
+
+public class Solution {
+    
+	ArrayList<Integer> a;
+	public void nextPermutation(ArrayList<Integer> a) {
+	    Integer last = a.get(a.size()-1);
+	    Integer index = -1;
+	    for(int i = a.size()-2; i >=0 && index == -1; i-- )
+	    {
+	        Integer act = a.get(i);
+	        if(last > act) index = i;
+	    }
+	    if(index != -1)
+	    {
+	        a.set(a.size()-1, a.get(index));
+	        a.set(index, last);
+	    }
+	    else
+	    {
+	        for(int i = 0; i < a.size()/2; i++)
+	        {
+	            Integer temp = a.get(i);
+	            a.set(i, a.get(a.size()-1-i));
+	            a.set(a.size()-1-i, temp);
+	        }
+	    }
+	}
+
+
+	public static void main(String[] args) {
+		
+		Solution x = new Solution();
+		x.a = new ArrayList<>();
+		Integer[] y = {444, 994, 508, 72, 125, 299, 181, 238, 354, 223, 691, 249, 838, 890, 758, 675, 424, 199, 201, 788, 609, 582, 979, 259, 901, 371, 766, 759, 983, 728, 220, 16, 158, 822, 515, 488, 846, 321, 908, 469, 84, 460, 961, 285, 417, 142, 952, 626, 916, 247, 116, 975, 202, 734, 128, 312, 499, 274, 213, 208, 472, 265, 315, 335, 205, 784, 708, 681, 160, 448, 365, 165, 190, 693, 606, 226, 351, 241, 526, 311, 164, 98, 422, 363, 103, 747, 507, 669, 153, 856, 701, 319, 695, 52 };
+		for(int i = 0; i < y.length; i++)
+		{
+			x.a.add(y[i]);
+		}
+		
+		x.nextPermutation(x.a);
+
+	}
+	
+	
+	
+
+}
