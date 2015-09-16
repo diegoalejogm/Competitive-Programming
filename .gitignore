@@ -1,4 +1,5 @@
-/.medatata/
-/.classpath/
-/.project/
-/.DS_Store/
+.metadata/
+.classpath
+.project
+.settings/
+.DS_Store/
