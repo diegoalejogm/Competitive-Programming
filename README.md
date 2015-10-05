@@ -10,7 +10,7 @@ Each commit message contains the ID of the solution added to the repository.
 ## Sources
  At the moment, the sources from where problem sets are taken, are the following:
 
-*[Competitive Programming Book](http://cpbook.net/)
+* [Competitive Programming Book](http://cpbook.net/)
 Actually, all the problems listed in the book come from: [UVa](https://uva.onlinejudge.org/)
-*[HackerRank](https://www.hackerrank.com)
-*[CodeChef](https://www.codechef.com)
+* [HackerRank](https://www.hackerrank.com)
+* [CodeChef](https://www.codechef.com)
