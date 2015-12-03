@@ -1,8 +1,10 @@
+package ch4;
+
 import java.io.*;
 import java.math.*;
 import java.util.*;
 
-class Main {
+class Risk567 {
 	public static void main(String[] args) throws Exception{
 		
 
