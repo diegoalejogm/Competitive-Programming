@@ -4,8 +4,10 @@ This repository contains solutions to various Coimpetitive Programming exercises
 ## Solutions
 Currently all solutions are made by myself, and it could be taken into consideration if anybody else would like to contribute.
 
+Message me if you are interested in contributing or find that the solution could be improved. I will be grateful for that, and maybe we could work together in this or some other project too.
+
 ## Commits
-Each commit message contains the ID of the solution added to the repository.
+Each commit message will try to contain the ID of the solution added to the repository.
 
 ## Sources
  At the moment, the sources from where problem sets are taken, are the following:
