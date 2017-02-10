@@ -26,9 +26,7 @@ public class Solution {
         int val = ar[i];ar[i] = ar[j]; ar[j] = val;
     }
     private static void printArray(int[] ar) {
-      for(int n: ar){
-         System.out.print(n+" ");
-      }
-        System.out.println("");
+      for(int n: ar){ System.out.print(n+" ");}
+      System.out.println("");
    }
 }
